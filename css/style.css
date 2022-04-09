@@ -122,3 +122,24 @@ body {
   transition: background 1s;
   cursor: pointer;
 }
+
+.remove-to-do:hover {
+  background: rgb(139, 97, 93);
+  color: #fff;
+}
+
+.checked {
+  color: #999 !important;
+  text-decoration: line-through;
+}
+
+.todo-item input {
+  margin: 0px 5px;
+}
+
+.empty {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #cccc;
+}
